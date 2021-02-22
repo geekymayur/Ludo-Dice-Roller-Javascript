@@ -10,6 +10,6 @@ function rollme() {
         showDiceFace.src = `/assets/dice-face/diceNum${DiceNum}.png`
         console.log(DiceNum);
     }
-    setTimeout(rollDice, 2000)
+    setTimeout(rollDice, 1000)
     // setTimeout(rollDice);
 }
